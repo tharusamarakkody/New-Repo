@@ -380,7 +380,7 @@ section .title::after{
 
 /* teams section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "Projects I have done";
 }
 .teams .carousel .card{
     background: #222;
@@ -404,7 +404,7 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
@@ -412,8 +412,6 @@ section .title::after{
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid brown;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
