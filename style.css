@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: brown;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: brown;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: brown;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -120,7 +120,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: brown;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: brown;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/banner.png") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -193,23 +193,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: brown;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: brown;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid brown;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: brown;
     background: none;
 }
 
@@ -235,25 +235,25 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: brown;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: brown;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid brown;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: brown;
     background: none;
 }
 
@@ -281,7 +281,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: brown;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -291,7 +291,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: brown;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -321,18 +321,18 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: brown;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid brown;
     transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: brown;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -360,7 +360,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: brown;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -391,7 +391,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background: brown;
 }
 .teams .carousel .card .box{
     display: flex;
@@ -413,7 +413,7 @@ section .title::after{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid brown;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
@@ -429,7 +429,7 @@ section .title::after{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid brown!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -438,7 +438,7 @@ section .title::after{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: brown!important;
 }
 
 /* contact section styling */
@@ -469,7 +469,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: brown;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -528,12 +528,12 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: brown;
+  border: 2px solid brown;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: brown;
   background: none;
 }
 /* footer section styling */
@@ -544,13 +544,303 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: brown;
     text-decoration: none;
 }
 footer span a:hover{
     text-decoration: underline;
 }
 
+/*******************************/
+/******* Experience CSS ********/
+/*******************************/
+.Eduction {
+    position: relative;
+    padding: 45px 0 15px 0;
+}
+.unilogo{
+  width:75%;
+}
+
+.about-img {
+  width: 100%;
+  height: 400px; /* Set the desired height */
+  overflow: hidden;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+.websayuralogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+
+.Eduction .timeline {
+    position: relative;
+    width: 100%;
+}
+
+.Eduction .timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: brown;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.Eduction .timeline .timeline-item {
+    position: relative;
+    background: inherit;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.Eduction .timeline .timeline-item.left {
+    left: 0;
+    padding-right: 30px;
+}
+
+.Eduction .timeline .timeline-item.right {
+    left: 50%;
+    padding-left: 30px;
+}
+
+.Eduction .timeline .timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 48px;
+    right: -8px;
+    background: #ffffff;
+    border: 2px solid brown;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.Eduction .timeline .timeline-item.right::after {
+    left: -8px;
+}
+
+.Eduction .timeline .timeline-item::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 46px;
+  right: 10px;
+  z-index: 1;
+  border: 10px solid;
+  border-color: transparent transparent transparent #dddddd;
+}
+
+.Eduction .timeline .timeline-item.right::before {
+  left: 10px;
+  border-color: transparent #dddddd transparent transparent;
+}
+
+.Eduction .timeline .timeline-date {
+    position: absolute;
+    width: 100%;
+    top: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    color: brown;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.Eduction .timeline .timeline-item.left .timeline-date {
+    text-align: left;
+    left: calc(100% + 55px);
+}
+
+.Eduction .timeline .timeline-item.right .timeline-date {
+    text-align: right;
+    right: calc(100% + 55px);
+}
+
+.Eduction .timeline .timeline-text {
+    padding: 30px;
+    background: #ffffff;
+    position: relative;
+    border-right: 5px solid #dddddd;
+    box-shadow: 0 0 60px rgba(0, 0, 0, .08);
+    transition: background 0.3s ease-in-out; /* Smooth transition effect */
+    border-radius: 5%;
+}
+
+.Eduction .timeline .timeline-text:hover {
+    background: brown; /* Change background color on hover */
+}
+
+.Eduction .timeline .timeline-item.right .timeline-text {
+    border-right: none;
+    border-left: 5px solid #dddddd;
+}
+
+.Eduction .timeline .timeline-text h2 {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.Eduction .timeline .timeline-text h4 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.Eduction .timeline .timeline-text p {
+    margin: 0;
+    font-size: 16px;
+}
+
+@media (max-width: 767.98px) {
+    .Eduction .timeline::after {
+        left: 8px;
+    }
+
+    .Eduction .timeline .timeline-item {
+        width: 100%;
+        padding-left: 38px;
+    }
+    
+    .Eduction .timeline .timeline-item.left {
+        padding-right: 0;
+    }
+    
+    .Eduction .timeline .timeline-item.right {
+        left: 0%;
+        padding-left: 38px;
+    }
+
+    .Eduction .timeline .timeline-item.left::after, 
+    .Eduction .timeline .timeline-item.right::after {
+        left: 0;
+    }
+    
+    .Eduction .timeline .timeline-item.left::before,
+    .Eduction .timeline .timeline-item.right::before {
+        left: 18px;
+        border-color: transparent #dddddd transparent transparent;
+    }
+    
+    .Eduction .timeline .timeline-item.left .timeline-date,
+    .Eduction .timeline .timeline-item.right .timeline-date {
+        position: relative;
+        top: 0;
+        right: auto;
+        left: 0;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .Eduction .timeline .timeline-item.left .timeline-text,
+    .Eduction .timeline .timeline-item.right .timeline-text {
+        border-right: none;
+        border-left: 5px solid #dddddd;
+    }
+}
+
+/******* Experience CSS ********/
+/*******************************/
+.experience {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.experience .experience-item {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 0 0 transparent;
+    transition: ease-out 0.5s;
+}
+
+.experience .experience-item:hover {
+    box-shadow: inset 800px 0 0 0 brown;
+}
+
+.experience .experience-icon {
+    position: relative;
+    width: 150px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid brown;
+    background: #ffffff;
+}
+
+.experience .experience-icon i {
+    position: relative;
+    font-size: 60px;
+    color: brown;
+    transition: .3s;
+}
+
+.experience .experience-item:hover i {
+    font-size: 75px;
+}
+
+.experience .experience-text {
+    position: relative;
+    width: calc(100% - 120px);
+    padding: 0 30px;
+}
+
+.experience .experience-text h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.experience .experience-text p {
+    margin: 0;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.experience .experience-item:hover .experience-text h3,
+.experience .experience-item:hover .experience-text p {
+    color: #ffffff;
+}
+
+@media (max-width: 575.98px) {
+    .experience .experience-text h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .experience .experience-text p {
+        font-size: 14px;
+    }
+}
 
 /* responsive media query start */
 @media (max-width: 1104px) {
